@@ -3,7 +3,7 @@ name = "boolcodec"
 version = "0.1.0"
 edition = "2024"
 description = "A compact byte-oriented codec for boolean sequences"
-license = "MIT OR Apache-2.0"
+license = "AGPL-3.0-only"
 keywords = ["boolean", "compression", "codec", "bitpacking"]
 categories = ["compression", "encoding", "no-std"]
 

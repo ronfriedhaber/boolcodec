@@ -28,3 +28,8 @@ encoded payload: 1000 bytes
 summary: 61.2x less total memory (98.4% smaller)
 payload only: 48.0x smaller
 ```
+
+## License
+
+Copyright © 2026 Ron Friedhaber. Licensed under the
+[GNU Affero General Public License v3.0](LICENSE).
