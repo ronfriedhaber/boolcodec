@@ -15,3 +15,16 @@ if OFF then
 
 
 Therfore, a byte may express [7, 3 * (2^4-1)] boolean values.
+
+## Example
+```sh
+cargo r --release --example availability  
+```
+```
+availability samples: 48000
+Vec<bool>:  24 inline + 65536 heap = 65560 bytes
+BoolVec:    48 inline + 1024 heap = 1072 bytes
+encoded payload: 1000 bytes
+summary: 61.2x less total memory (98.4% smaller)
+payload only: 48.0x smaller
+```
